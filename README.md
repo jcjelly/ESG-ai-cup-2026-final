@@ -22,29 +22,17 @@ Logical Gate
 ### 軟體環境
 
 | 項目            | 版本                 |
-
 | ------------- | ------------------ |
-
 | Python        | 3.11               |
-
 | PyTorch       | 2.11.0 (CUDA 12.8) |
-
 | Transformers  | 5.12.0             |
-
 | Accelerate    | 1.14.0             |
-
 | Pandas        | 2.2.2              |
-
 | NumPy         | 2.0.2              |
-
 | Scikit-learn  | 1.6.1              |
-
 | Matplotlib    | 3.10.0             |
-
 | Seaborn       | 0.13.2             |
-
 | tqdm          | 4.67.3             |
-
 | SentencePiece | 0.2.1              |
 
 ### 硬體環境
