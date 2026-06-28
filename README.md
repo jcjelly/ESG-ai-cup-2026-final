@@ -226,11 +226,10 @@ CSV 包含四個預測欄位：
 
 若要重現本研究結果，請依照以下步驟：
 
-1. 下載 AI CUP 官方資料集並放入 `data/`
-2. 下載 Google Drive 提供之模型權重並放入 `weights/`
-3. 開啟 `ESG_AICUP_Final.ipynb`
-4. 依序執行 Notebook 所有 Cell（Training 區塊可略過）
-5. 程式將自動於 `submission/` 產生 `submission.csv`
+1. 下載 Google Drive 提供之模型權重並放入 `weights/`
+2. 開啟 `ESG_AICUP_Final.ipynb`
+3. 依序執行 Notebook 所有 Cell（Training 區塊可略過）
+4. 程式將自動於 `submission/` 產生 `submission.csv`
 
 ---
 
