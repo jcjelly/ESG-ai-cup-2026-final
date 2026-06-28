@@ -33,18 +33,31 @@ Google Colab GPU
 AI-CUP-2026-ESG/
 
 │
+
 ├── ESG_AICUP_Final.ipynb      # 主程式
+
 ├── README.md
+
 ├── requirements.txt
+
 │
+
 ├── data/                      # 資料集
+
 │
+
 ├── weights/                   # 模型權重
+
 │   ├── anchor/
+
 │   ├── quality/
+
 │   └── timeline/
+
 │
+
 └── submission/                # 推論結果
+
 資料集
 
 請先下載 AI CUP 官方提供之資料集。
