@@ -15,20 +15,50 @@ Logical Gate
 
 以提升模型穩定性與預測效能。
 
-執行環境
-項目	版本
-Python	3.11
-PyTorch	2.x
-Transformers	4.x
-Pandas	最新版本
-NumPy	最新版本
-Scikit-learn	最新版本
-Google Colab	建議使用
+## 執行環境
 
-硬體需求：
+本專案於 **Google Colab** 環境下完成開發、訓練與測試，主要軟硬體環境如下：
 
-CUDA GPU（建議）
-Google Colab GPU
+### 軟體環境
+
+| 項目            | 版本                 |
+
+| ------------- | ------------------ |
+
+| Python        | 3.11               |
+
+| PyTorch       | 2.11.0 (CUDA 12.8) |
+
+| Transformers  | 5.12.0             |
+
+| Accelerate    | 1.14.0             |
+
+| Pandas        | 2.2.2              |
+
+| NumPy         | 2.0.2              |
+
+| Scikit-learn  | 1.6.1              |
+
+| Matplotlib    | 3.10.0             |
+
+| Seaborn       | 0.13.2             |
+
+| tqdm          | 4.67.3             |
+
+| SentencePiece | 0.2.1              |
+
+### 硬體環境
+
+| 項目   | 規格                    |
+| ---- | --------------------- |
+| 開發平台 | Google Colab          |
+| GPU  | NVIDIA A100-SXM4-80GB |
+| CUDA | 12.8                  |
+## 執行說明
+
+本專案建議於 **Google Colab GPU** 環境執行。
+
+若於其他 Python 環境執行，請先依 `requirements.txt` 安裝所需套件，並確認 GPU 與 CUDA 環境已正確配置。
 專案結構
 AI-CUP-2026-ESG/
 
