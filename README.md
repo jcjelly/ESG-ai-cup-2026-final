@@ -57,7 +57,7 @@
 AI-CUP-2026-ESG/
 
 │
-├── ESG_AICUP_Final.ipynb      # 主程式
+├── VeriPromiseESG_2026_ESG_Promise_Verification_Competition_Final (1).ipynb      # 主程式
 ├── README.md
 ├── requirements.txt
 │
